@@ -14,29 +14,6 @@ module.exports = {
   plugins: [
     'gatsby-plugin-postcss',
     'gatsby-plugin-sitemap',
-    {
-    resolve: "gatsby-plugin-google-tagmanager",
-    options: {
-      id: "GTM-TKJWB2S",
-
-      // Include GTM in development.
-      //
-      // Defaults to false meaning GTM will only be loaded in production.
-      includeInDevelopment: false,
-
-      // datalayer to be set before GTM is loaded
-      // should be an object or a function that is executed in the browser
-      //
-      // Defaults to null
-      defaultDataLayer: { platform: "gatsby" },
-
-      // Name of the event that is triggered
-      // on every Gatsby route change.
-      //
-      // Defaults to gatsby-route-change
-      routeChangeEventName: "Route",
-    },
-  },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-sanity',
