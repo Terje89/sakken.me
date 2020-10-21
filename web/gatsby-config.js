@@ -8,12 +8,8 @@ const clientConfig = require('./client-config')
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-  siteMetadata: {
-    siteUrl: `https://sakken.me`,
-  },
   plugins: [
     'gatsby-plugin-postcss',
-    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-sanity',
