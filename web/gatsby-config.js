@@ -24,6 +24,6 @@ module.exports = {
 }
 
 siteMetadata: {
-  siteUrl: `https://www.example.com`,
+  siteUrl: `https://sakken.me`,
 },
 plugins: [`gatsby-plugin-sitemap`]
